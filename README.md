@@ -1,4 +1,4 @@
-GRUPO3 FONT
+Grupo3 font
 --
 
 Font for titles created by [ED DESIGN GRAPHIC + WEB](http://ed-works.com/) as part of the corporate design work we did for a portuguese architecture company.
