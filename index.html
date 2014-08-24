@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Grupo3 font</title>
+<style>
+@import url(http://openfontlibrary.org/face/grupo3);
+p { 
+   font-family: 'GRUPO3'; 
+   font-weight: normal; 
+   font-style: normal;
+   font-size: 5.6em;
+   padding: 10% 13%;
+   text-align: center;
+   color: #170B3B;
+   line-height: 105%;
+}
+span {
+  color: #DF0174;
+}
+span:focus {
+  outline: none;
+}
+a {
+  color: #01A9DB;
+}
+</style>
+</head>
+<body>
+<p>Hi there, I'm the amazing Grupo3 font! <span contenteditable="true">Try me here </span>and download me <a href="https://github.com/ED-DESIGN/GRUPO3">here</a>
+</p>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$('span').click(function(){
+  var $this = $(this);
+  if(!$this.data('changed')){
+     $this.data('changed', true);
+     $this.html('&nbsp;');
+  }
+}).blur(function(){
+  var $this = $(this);
+  var trimmedText = $this.text().trim();
+  if(trimmedText == "" || trimmedText == "."){
+    $this.text('Try me here ');
+    $this.data('changed', false);
+  }
+});
+</script>
+</body>
+</html>
