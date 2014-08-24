@@ -5,6 +5,8 @@ Font for titles created by [ED DESIGN GRAPHIC + WEB](http://ed-works.com/) as pa
 
 We are releasing this font under the super-permissive [SIL Open Font License (OFL)](http://scripts.sil.org/OFL) and shared it at the [Open Font Library](http://openfontlibrary.org/font/grupo3)
 
+Try the font [here](http://ed-design.github.io/GRUPO3/)
+
 ![grupo3 font specimen](grupo3_specimen.jpg?raw=true)
 
 
