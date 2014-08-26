@@ -43,7 +43,7 @@ $('span').click(function(){
   var $this = $(this);
   var trimmedText = $this.text().trim();
   if(trimmedText == "" || trimmedText == "."){
-    $this.text('Try me here ');
+    $this.text('... ');
     $this.data('changed', false);
   }
 });
